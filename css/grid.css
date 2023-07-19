@@ -1,0 +1,12 @@
+/* basic grid bare for den side */
+.grid-1-1 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 500px);
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+    }
